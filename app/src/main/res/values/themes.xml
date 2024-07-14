@@ -1,0 +1,36 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.FilesCryptPro" parent="Theme.MaterialComponents">
+        <!-- Background color. -->
+        <item name="android:windowBackground">@color/background_dark</item>
+        <!-- Notification status bar color. -->
+        <item name="android:statusBarColor">@color/background_dark</item>
+
+        <!-- Other settings. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/foreground</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/foreground</item>
+        <item name="colorSecondaryVariant">@color/foreground</item>
+        <item name="colorOnSecondary">@color/foreground</item>
+    </style>
+
+    <style name="ThemeOverlay.Custom.SearchView" parent="">
+        <!-- Icon Color -->
+        <item name="android:tint">@color/foreground</item>
+        <!-- Query Text Color -->
+        <item name="android:textColorPrimary">@color/foreground</item>
+        <!-- Hint Color -->
+        <item name="android:textColorHint">@color/foreground</item>
+        <item name="android:closeIcon">@color/foreground</item>
+    </style>
+
+    <style name="Theme.FilesEncryptorPro.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.FilesEncryptorPro.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

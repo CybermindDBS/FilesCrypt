@@ -1,0 +1,33 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/controls_header">
+
+        <SwitchPreferenceCompat
+            app:icon="@drawable/file_lock"
+            app:key="FSControls2"
+            app:title="@string/fs1_title" />
+        <SwitchPreferenceCompat
+            app:icon="@drawable/folder_lock"
+            app:key="FSControls3"
+            app:title="@string/fs2_title" />
+        <ListPreference
+            app:entries="@array/source_file_setting_entries"
+            app:entryValues="@array/source_file_setting_values"
+            app:icon="@drawable/delete"
+            app:key="FSControls1"
+            app:title="@string/ss_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/pm_header">
+
+        <SwitchPreferenceCompat
+            app:icon="@drawable/content_save"
+            app:key="PasswordManager"
+            app:summaryOff="@string/pm_summary_off"
+            app:summaryOn="@string/pm_summary_on"
+            app:title="@string/pm_title" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

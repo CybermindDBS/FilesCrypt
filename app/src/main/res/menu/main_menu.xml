@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/shield_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_password_manager"
+            android:icon="@drawable/key_variant"
+            android:title="@string/menu_password_manager" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="@string/menu_settings" />
+    </group>
+    <item android:title="@string/menu_help">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_user_guide"
+                    android:icon="@drawable/book_open_blank_variant"
+                    android:title="@string/menu_user_guide" />
+                <item
+                    android:id="@+id/nav_help"
+                    android:icon="@drawable/email_arrow_left"
+                    android:title="@string/menu_help_and_support" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/menu_support_the_developer">
+        <menu>
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/star"
+                android:title="@string/menu_rate_the_app" />
+            <item
+                android:id="@+id/nav_donate"
+                android:icon="@drawable/briefcase_upload"
+                android:title="@string/menu_get_donate_version"
+                android:titleCondensed="@string/menu_get_donate_version_condensed" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share_variant_outline"
+                android:title="@string/menu_share_this_app" />
+        </menu>
+    </item>
+</menu>
+

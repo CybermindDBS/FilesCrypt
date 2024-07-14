@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">FilesCrypt Pro</string>
+    <string name="mode">Mode:</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="process">process</string>
+    <string name="notification_title">FilesCrypt Pro</string>
+    <string name="notification_message">On standby</string>
+    <string name="notification_message_2">Closing…</string>
+    <string name="channel_name">FilesCrypt Service</string>
+    <string name="channel_name2">Operation Status</string>
+    <string name="channel_description">Service status.</string>
+    <string name="content_desc">FilesCrypt Logo</string>
+    <string name="test">Test</string>
+
+
+    <string name="fileImgDesc">file</string>
+    <string name="filename">TextView</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="pickSelected">Submit Selected</string>
+    <string name="pickSelectionInfo">Submit Selected(%1$s)</string>
+    <string name="str">%1$s</string>
+    <string name="str_path">Path: %1$s</string>
+    <string name="str_itemDetails">%1$s</string>
+    <string name="str_msg1">Select storage</string>
+    <string name="str_info1">External storages found: %1$s</string>
+    <string name="str_info2">Empty Directory</string>
+    <string name="str_filename2">Internal Storage Directory</string>
+    <string name="todo">TODO</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Open navigation drawer</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_password_manager">Password Manager</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_user_guide">User guide</string>
+    <string name="menu_help_and_support">Help and support</string>
+    <string name="menu_support_the_developer">Support the Developer!</string>
+    <string name="menu_get_donate_version">Unlock Ad-Free Version</string>
+    <string name="menu_get_donate_version_condensed">Get Ad free version</string>
+    <string name="menu_share_this_app">Share this App</string>
+    <string name="menu_rate_the_app">Rate the app</string>
+    <string name="menu_about">About</string>
+    <string name="encrypt_filenames">File name encryption</string>
+    <string name="encrypt_folder_names">Folder name encryption</string>
+    <string name="delete_source_files_after_successful_encryption">Delete source files upon successful encryption</string>
+    <string name="delete_source_files_after_successful_decryption">Delete source files upon successful decryption</string>
+    <string name="custom_iv_optional">Custom IV (Optional)</string>
+    <string name="iv_tooltip">Recommended : \nKeep it blank to generate a random Initialization Vector for each file.</string>
+    <string name="choose_files_folders">Choose Files/Folders</string>
+    <string name="encryption_settings">Encryption Settings</string>
+    <string name="decryption_settings">Decryption Settings</string>
+    <string name="encryption_mode_aes256_cbc_pkcs5">Encryption Mode: AES(256)/CBC/PKCS7</string>
+    <string name="decryption_mode_aes256_cbc_pkcs5">Decryption Mode: AES(256)/CBC/PKCS7</string>
+    <string name="initialization_vector">Initialization Vector</string>
+    <string name="optional">(Optional)</string>
+    <string name="additional_settings">Additional Settings</string>
+    <string name="info_IV">initialization vector information</string>
+
+
+    <string name="status_info">Status Card</string>
+    <string name="status2_info">Status Card</string>
+    <string name="status3_info">Status Card</string>
+    <string name="Cancel">Cancel</string>
+    <string name="ongoing_operation_status">Processed: %1$s / %2$s Files</string>
+    <string name="ongoing_operation_stats">Completion: %1$s %%</string>
+    <string name="ongoing_operation_stats2">Rate: %1$s mbps</string>
+    <string name="ongoing_operation_stats3">%1$s MB / %2$s MB</string>
+    <string name="click_here_to_view_details">Tap to view details</string>
+    <string name="no_ongoing_operation">no ongoing operation</string>
+    <string name="completion_status">Completed %1$s</string>
+    <string name="processed_files_status">Processed %1$s / %2$s files</string>
+    <string name="processed_files_status2">Encrypted %1$s / %2$s Files</string>
+    <string name="processed_files_status3">Decrypted %1$s / %2$s files</string>
+    <string name="one_moment">One Moment…</string>
+    <string name="calc_input">Calculating input</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="str_info"><![CDATA[This password will be used for %1$s your selected files & folders.]]></string>
+    <string name="str_info3">Save this password to Password Manager</string>
+    <string name="str_info4">Retrieve password from Password Manager</string>
+    <string name="choose_save_location">Choose a save location</string>
+    <string name="select_destination">Select a destination to store your encrypted files</string>
+    <string name="select_destination2">Select a destination to store your decrypted files</string>
+    <string name="same_as_source">Same as Source</string>
+    <string name="choose_a_folder">Choose a folder</string>
+    <string name="encrypted_files_directory">/FilesCrypt Pro/Encrypted Files</string>
+    <string name="decrypted_files_directory">/FilesCrypt Pro/Decrypted Files</string>
+    <string name="fileName">Filename: %1$s</string>
+    <string name="pathName">Path: %1$s</string>
+    <string name="groupName">%1$s (%2$s items)</string>
+    <string name="retry">Retry</string>
+    <string name="report">Report Log</string>
+    <string name="log_status">Status: %1$s</string>
+    <string name="log_filesProcessed">Files processed: %1$s/%2$s</string>
+    <string name="or">or</string>
+    <string name="msg_info">Utilizing this feature requires the presence of a screen lock on your device. If you already have a screen lock in place and continue to receive this message, it indicates that your device is not within the supported compatibility range.</string>
+    <string name="password_manager_options">Password Manager</string>
+    <string name="passwords_are_securely_saved">%1$s %2$s securely stored.</string>
+    <string name="import_btn">Import</string>
+    <string name="export">Export</string>
+    <string name="save_to_google_drive">Save to Google Drive</string>
+    <string name="protect_this_file_with_a_password">Protect this file with a password?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="info">Enabling password protection for the export file ensures the stored passwords remain secure and confidential.</string>
+    <string name="info3">The Password manager securely stores the passwords that you wish to save for later usage while encrypting your files. When decrypting files, you can effortlessly retrieve these passwords using your device"'"s screen lock or fingerprint, eliminating the need to recall them. It"'"s important to remember that if you decide to delete this app, the password manager will also be deleted. To safeguard your data, consider creating a backup before taking any action.</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="controls_header">Default Behavior Controls</string>
+    <string name="pm_header">Password Manager</string>
+
+    <!-- Messages Preferences -->
+    <string name="ss_title">Default source file action</string>
+
+    <!-- Sync Preferences -->
+    <string name="pm_title">Save new passwords</string>
+    <string name="pm_summary_on">By default, securely store any newly used passwords during encryption in the Password Manager.
+    </string>
+    <string name="pm_summary_off">Save passwords to the Password Manager only when requested.</string>
+
+    <string name="fs1_title">Enable filename encryption</string>
+    <string name="fs2_title">Enable folder name encryption</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="subject_options">
+        <item>Feedback and Suggestions</item>
+        <item>Report a Bug</item>
+        <item>App Usage Questions</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="subject">Subject</string>
+    <string name="contact_app_developer">Contact App Developer</string>
+    <string name="enter_subject">Enter subject</string>
+    <string name="send">Send</string>
+    <string name="message_body">Message Body</string>
+    <string name="others">Others\n</string>
+    <string name="email">cdev.db@gmail.com</string>
+    <string name="app_settings">App Settings</string>
+    <string name="thank_you_no_ads_version">Thank you for purchasing FilesCrypt Pro Ad-Free (Donate Version).</string>
+</resources>
+

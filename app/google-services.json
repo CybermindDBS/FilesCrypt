@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "801766290095",
+    "project_id": "play-integrity-18p4fbktkx2a4lr",
+    "storage_bucket": "play-integrity-18p4fbktkx2a4lr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801766290095:android:3fd6e7090c30652a745a5a",
+        "android_client_info": {
+          "package_name": "com.cdevworks.filescryptpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801766290095-43uo3u2goeht5tntoo4d4foalu2gjaif.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFOj_f4cDZfp9ppsw3n3jaiGdWnafrxSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801766290095-43uo3u2goeht5tntoo4d4foalu2gjaif.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
