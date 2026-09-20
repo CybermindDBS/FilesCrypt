@@ -99,12 +99,3 @@ app/src/main/java/com/cdevworks/filescryptpro/
 app/src/main/res/             layouts, drawables, settings
 app/src/main/assets/          in-app user guide
 ```
-
-## Known limitations
-
-- The salt is a compile-time constant, so identical passwords derive identical keys across
-  installs. Per-file random salts would be the fix.
-- Folder names use a fixed IV, since the name must be recoverable from the path alone.
-- CBC with a separate SHA-256 check rather than an AEAD mode such as GCM.
-- `MANAGE_EXTERNAL_STORAGE` is required to reach arbitrary user files, which needs a Play Store
-  declaration and review.
